@@ -14,7 +14,7 @@ After defining the dataset, the code splits it into training, validation, and te
 
 The model is then initialized, and the loss function (MSELoss) and optimizer (Adam) are defined. The code trains the model for a specified number of epochs, iterating over the training data in batches. It calculates the loss, performs backpropagation, and updates the model's parameters using the optimizer.
 
-After training, the model is evaluated on the validation and test sets. The validation loss and test loss are computed using the mean squared error (MSE) loss. Finally, the trained model is saved to a file named "model.pthT1" using torch.save().
+After training, the model is evaluated on the validation and test sets. The validation loss and test loss are computed using the mean squared error (MSE) loss. Finally, the trained model is saved to a file named "model.pth" using torch.save().
 
 <h2>Results</h2>
 
